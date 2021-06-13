@@ -56,4 +56,4 @@ NOTE: Downloaded zip file from moses link -> extracted files and renamed them to
 - Then I add the context and the decoded output sequence and pass them through the time-distributed layer to get the final output.
 - created the model and trained tested and evaluated using the BLEU metric.
 
-- 
+image reference : https://lena-voita.github.io/resources/lectures/seq2seq/general/enc_dec_linear_out-min.png and https://lena-voita.github.io/resources/lectures/seq2seq/attention/general_scheme-min.png
