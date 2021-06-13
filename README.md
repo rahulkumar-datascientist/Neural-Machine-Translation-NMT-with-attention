@@ -22,6 +22,10 @@ NOTE: Downloaded zip file from moses link -> extracted files and renamed them to
 - Using pre-trained GloVe embedding, I map the source vocabulary token(word) to its respective 100 - Dimensional vector.
 
 ## Section 2 - Translation Model training using Seq2Seq model
+	
+<p align="center">
+  <img src="https://lena-voita.github.io/resources/lectures/seq2seq/general/enc_dec_linear_out-min.png" width=650>
+</p>
 
 - Defined Encoder Architecture
 	- Mapping each source token in the sentence to its corresponding vector representation(embedding).
@@ -39,6 +43,11 @@ NOTE: Downloaded zip file from moses link -> extracted files and renamed them to
 - Used the nltk library to calculate the sentence and corpus level BLEU score for each of the 1, 2, 3 and 4-gram sequence.
 
 ## Section 4 - Using the Attention mechanism to train the Seq2Seq model
+
+<p align="center">
+  <img src="https://lena-voita.github.io/resources/lectures/seq2seq/attention/general_scheme-min.png" width=650>
+</p>
+	
 
 - Using the same Encoder and Decoder architecture with minute changes.
 - We save all the intermediate cell state and hidden values of the encoded sequence.
